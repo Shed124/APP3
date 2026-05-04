@@ -8,8 +8,3 @@ def data_reading(csv):
     data = [dict(zip(headers, line.strip().split(','))) for line in lines[1:]]
 
     return data
-
-a=data_reading("parcoursup_small_10000.csv")
-b=data_reading("parcoursup_small_10000.cs")
-print(a)
-print(b)
